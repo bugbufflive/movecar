@@ -24,8 +24,11 @@
 ### 📩 必需项（至少配置一种渠道）
 | 变量名 | 说明 | 示例值 |
 | :--- | :--- | :--- |
-| `DINGTALK_WEBHOOK` | 钉钉机器人 Webhook 地址 | `https://oapi.dingtalk.com/robot/...` |
-| `SERVERCHAN_SENDKEY` | Server酱 (方糖) 推送密钥 | `SCTxxxxxxxxxxxx` |
+DINGTALK_WEBHOOK	钉钉机器人 Webhook URL
+DINGTALK_SECRET	钉钉签名密钥（可选）
+WEWORK_WEBHOOK	企业微信机器人 Webhook URL
+PUSHPLUS_TOKEN	PushPlus 个人 Token
+PHONE_NUMBER	车主联系电话（可选，页面显示拨号按钮）
 
 ### 🔧 可选项
 | 变量名 | 说明 | 示例值 |
